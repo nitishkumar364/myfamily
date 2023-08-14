@@ -1,0 +1,425 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+
+}
+
+html,body
+{
+    width: 100%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* navbar starts */
+
+nav
+{
+    /* border: 1px solid red; */
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 2px 0px 30px 10px rgba(225, 219, 219, 0.333);
+    background-color: white;
+}
+
+nav ul
+{
+    /* border: 8px solid green; */
+    display: inline;
+    margin-left: 305px;
+}
+
+nav ul li
+{
+    /* border: 1px solid yellow; */
+    display: inline;
+}
+
+nav .navbar-brand-logo
+{
+    margin-left: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #24325d;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+    color: #24325d;
+    transition: color .5s;
+    
+}
+
+nav ul li a:hover
+{
+    color: #006fbe;
+}
+/* navbar ends */
+
+/* Banner starts */
+
+.banner
+{
+    /* border: 2px solid red; */
+    height: 450px;
+    background-image: url("https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation-name: bannerimage;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes bannerimage {
+    0%{background-image: url("https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-1.jpg");}
+    20%{background-image: url("https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-1.jpg");}
+    50%{background-image: url("https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-2.jpg");}
+    100%{background-image: url("https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-3.jpg");}
+}
+/* Banner ends */
+
+/* Family Info starts */
+
+.family-info
+{
+    /* border: 2px solid red; */
+    margin: 50px 120px;
+}
+.family-info h1
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.family-info h1::before
+{
+    content: "";
+    background-color: black;
+    display: block;
+    height: 1px;
+    width: 162px;
+    position: relative;
+    left: 403px;
+    top: 58px;
+}
+.family-info h1::after
+{
+    content: "";
+    background-color: #006fbe;
+    display: block;
+    height: 3px;
+    width: 38px;
+    position: relative;
+    left: 466px;
+    top: 8px;
+}
+
+
+.family-info .para
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.family-info .family-info-content
+{
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.family-info .family-info-content .family-image
+{
+    /* border: 2px solid green; */
+    width: 49%;
+}
+.family-info .family-info-content .family-image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.family-info .family-info-content .family-text
+{
+    /* border: 2px solid yellow; */
+    width: 49%;
+}
+.family-info .family-info-content .family-text ul
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.family-info .family-info-content .family-text ul li
+{
+    line-height: 32px;
+    list-style-type: none;
+}
+
+.family-info .family-info-content .family-text .para1
+{
+    margin-bottom: 25px;
+
+}       
+.family-info .family-info-content .family-text a
+{
+    border: 2px solid #006fbe;
+    padding: 9px 34px;
+    color: #006fbe;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all .3s;
+}
+
+.family-info .family-info-content .family-text a:hover
+{
+    background-color: #006fbe;
+    color: white;
+}
+
+.family-info .fa-check{
+    color: #006fbe;
+}
+
+
+/* Family Info Ends */
+
+/* Scroll Arrow starts */
+
+.scroll-arrow
+{
+    background-color: #006fbe;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 98765;
+} 
+.scroll-arrow a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 33px;
+     padding: 15px;
+     font-weight: 800;
+     margin-left: 4px;
+}
+
+
+
+ 
+/* Scroll Arrow ends */
+
+
+
+
+/* details starts */
+
+.details{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 96%;
+    margin: 60px 2%;
+
+    
+
+    display: flex;
+     flex-wrap: wrap;
+}
+.details .details1{
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 32%;
+    text-align: center;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.details .details1 .icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-left: 160px;
+    align-items: center;
+    margin-top: -10px;
+    font-size: 50px;
+    background-color: white;
+    box-shadow: 1px 0px 30px 1px rgba(159, 107, 107, 0.333);
+    /* border: 1px solid green; */
+    
+
+}
+.details .details1 .icon i{
+    margin-top: 15px;
+    
+}
+.details .details1 a
+{
+    color: rgba(0, 0, 0, 0.708);
+    font-family: calibri;
+    font-weight: 400;
+    text-decoration: none;
+    font-weight: 300;
+}
+.details .details1 a :hover
+{
+    color: #006fbe;
+    transition: all .2s;
+}
+
+.details .details1  a h3{
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px; */
+    margin: 10px 10px;
+    margin-left: 40px;
+}
+.details .details1 hr{
+    width: 60px;
+    height: 2.5px;
+    background-color:#006fbe;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* details end */
+
+
+/* recents starts */
+.recent{
+   padding-left: 30px;
+   margin-top: -60px;
+}
+.recent h1{
+    text-align: center;
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+}
+.recent h1::before
+{
+    content: "";
+    background-color: black;
+    display: block;
+    height: 1px;
+    width: 162px;
+    position: relative;
+    left: 523px;
+    top: 58px;
+}
+.recent h1::after
+{
+    content: "";
+    background-color: #006fbe;
+    display: block;
+    height: 3px;
+    width: 38px;
+    position: relative;
+    left: 586px;
+    top: 13.2px;
+}
+.recent p{
+    /* border: 2px solid blue; */
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.recent .photo{
+    height: 170px;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+    /* border: 2px solid pink; */
+    
+}
+.recent .photo .photo1{
+    height: 100%;
+    width: 19%;
+    justify-content: space-between;
+
+}
+.recent .photo .photo1 img{
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+/* recents ends */
+
+/*  my family start */
+
+.myfamily{
+    height: 300px;
+    width: 100%;
+    background-color: #1d284b;
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 50px;
+}
+.myfamily h1{
+    font-family: sans-serif;
+}
+.myfamily p{
+    font-family: italic;
+    margin-top: 15px;
+    
+}
+.myfamily .icon{
+    margin: 35px 0px;
+    padding-left: 10px;
+}
+.myfamily .icon i{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid red; */
+    border-radius: 100%;
+    padding-top: 11px;
+    background-color: #1c83cccb;
+    color: #fff;
+}
+.myfamily .icon i:hover
+{
+    background-color:#3f88bb ;
+    color: #fff;
+    transition: all 1s;
+}
+.myfamily h4{
+    margin-top: 20px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.myfamily h4 .me{
+    font-weight: 800;
+}
+.myfamily h5{
+    margin-top: 15px;
+    font-weight: 400;
+}
+.myfamily h5 .nits{
+    font-weight: 700;
+}
+
+
+
+/* my family ends */

@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+}
+
+/* navbar starts */
+.nav{
+    /* border: 2px solid red; */
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 60px;
+    background-color: rgba(128, 128, 128, 0.095);  
+}
+.nav .navbar ol{
+    display: flex;
+    margin-right: 20px;
+    padding: 10px;
+    list-style: none;
+    font-family:"Raleway",sans-serif;
+    font-size: 15px;
+    
+}
+.nav .navbar ol li a{
+    text-decoration: none;
+    font-family:"Raleway",sans-serif;
+    color: rgba(0, 0, 255, 0.526);
+    font-weight: 600;
+}
+.nav h2{
+    font-family:"Raleway",sans-serif;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.667);
+}
+
+
+/* navbar ends */
+
+
+/* mapbar starts */
+.mapbar
+{
+    margin-top: 50px;
+    /* width: 100%; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.mapbar iframe
+{
+    width: 100%; 
+    height: 300px;
+}
+
+
+
+/* mapbar end */
+
+/* details star */
+
+section
+{
+    /* border:2px solid red; */
+    height: 400px;
+    width: 95%;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+}
+section .details{
+    /* border: 2px solid green; */
+    height: 400px;
+    width: 45%;
+}
+section .details .details1
+{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+section .details .details1 .icon
+{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid red; */
+    border-radius: 100px;
+    background-color: rgba(0, 255, 255, 0.124);
+    margin-right: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+    
+}
+section .details .details1 .icon:hover
+{
+    background-color: rgba(0, 0, 255, 0.596);
+    color: white;
+    transition: all .10s;
+}
+section .details .details1 .icon i{
+    margin-top: 13px;
+    margin-left: 13px;
+
+}
+.details2 input{
+  margin-top: 20px;
+  height: 50px;
+  width: 330px;
+  margin-left: 20px;
+  outline: none;
+  padding-left: 10px;
+}
+.details2 .Subject{
+    width: 778px;
+    margin-top: -400px;
+    outline: none;
+}
+.nnn{
+    width: 778px;
+    height: 116px;
+    margin-left: 20px;
+    margin-top: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-family: calibri;
+    font-weight: 500;
+
+}
+
+/* details end */
+
+
+/*  my family start */
+
+.myfamily{
+    height: 300px;
+    width: 100%;
+    background-color: #1d284b;
+    color: #fff;
+    text-align: center;
+    margin-top: -40px;
+    padding-top: 50px;
+}
+.myfamily h1{
+    font-family: sans-serif;
+}
+.myfamily p{
+    font-family: italic;
+    margin-top: 15px;
+    
+}
+.myfamily .icon{
+    margin: 35px 0px;
+    padding-left: 10px;
+}
+.myfamily .icon i{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid red; */
+    border-radius: 100%;
+    padding-top: 11px;
+    background-color: #1c83cccb;
+    color: #fff;
+}
+.myfamily .icon i:hover
+{
+    background-color:#3f88bb ;
+    color: #fff;
+    transition: all 1s;
+}
+.myfamily h4{
+    margin-top: 20px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.myfamily h4 .me{
+    font-weight: 800;
+}
+.myfamily h5{
+    margin-top: 15px;
+    font-weight: 400;
+}
+.myfamily h5 .nits{
+    font-weight: 700;
+}
+.myfamily h5  a .nits
+{
+    text-decoration: none;
+}
+
+
+/* my family ends */

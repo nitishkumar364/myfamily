@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+}
+
+/* navbar starts */
+.nav{
+    /* border: 2px solid red; */
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 60px;
+    background-color: rgba(128, 128, 128, 0.095);  
+}
+.nav .navbar ol{
+    display: flex;
+    margin-right: 20px;
+    padding: 10px;
+    list-style: none;
+    font-family:"Raleway",sans-serif;
+    font-size: 15px;
+    
+}
+.nav .navbar ol li a{
+    text-decoration: none;
+    font-family:"Raleway",sans-serif;
+    color: rgba(0, 0, 255, 0.526);
+    font-weight: 600;
+}
+.nav h2{
+    font-family:"Raleway",sans-serif;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.667);
+}
+
+
+/* navbar ends */
+
+
+/* galary start */
+.parent{
+    margin-top: 50px;
+    margin: 25px;
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.parent img{
+    width: 100%;
+    height: 100%;
+}
+.content
+{
+    width: 90%;
+    height: 90%; 
+    background-color: rgba(0, 0, 0, 0.612);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    right: 0;
+    bottom:0;
+    opacity: 0;
+    transition: all .5s;
+    
+}
+.content p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content i{
+    font-size: 30px;
+    font-weight: bold;
+}
+.parent:hover .content{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.content::before
+{
+    content: "";
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 109px;
+}
+.content::after
+{
+    content: "";
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 109px;
+}
+
+/* galary ends */
+
+
+/* navbar stars */
+.navbar
+{
+    margin-top: 20px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-left: 460px;
+}
+
+.navbar ul li{
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+.navbar ul li a{
+    font-family:"Raleway",sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.73);
+    
+}
+.navbar ul li a:hover
+{
+    color: #1d284b;
+}
+
+/* navbar ends */
+
+
+/*  my family start */
+
+.myfamily{
+    height: 300px;
+    width: 100%;
+    background-color: #1d284b;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+.myfamily h1{
+    font-family: sans-serif;
+}
+.myfamily p{
+    font-family: italic;
+    margin-top: 15px;
+    
+}
+.myfamily .icon{
+    margin: 35px 0px;
+    padding-left: 10px;
+}
+.myfamily .icon i{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid red; */
+    border-radius: 100%;
+    padding-top: 11px;
+    background-color: #1c83cccb;
+    color: #fff;
+}
+.myfamily .icon i:hover
+{
+    background-color:#3f88bb ;
+    color: #fff;
+    transition: all 1s;
+}
+.myfamily h4{
+    margin-top: 20px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.myfamily h4 .me{
+    font-weight: 800;
+}
+.myfamily h5{
+    margin-top: 15px;
+    font-weight: 400;
+}
+.myfamily h5 .nits{
+    font-weight: 700;
+    color: #3f88bb;
+}
+.myfamily h5 a{
+    text-decoration: none;
+}
+
+
+
+/* my family ends */
